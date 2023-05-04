@@ -2,7 +2,6 @@ TARGET = my_math.a
 CC = gcc
 FLAGS = -Wall -Werror -Wextra -std=c11 -pedantic
 CFLAGS = -fprofile-arcs -ftest-coverage
-LDFLAGS = -lgcov
 
 OS = $(shell uname)
 
